@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"> 
+    <link href="css/estilos.css" type="text/css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> 
+    
+    
+    <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+ 
+     <!-- Popper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+ 
+     <!-- Latest compiled JavaScript -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+     <style>::selection{color:rgb(224, 224, 224);background: rgba(89, 0, 255, 0.693) }</style>
+ 
+    
+    
+    
+    <title>Animalitos al rescate!</title>
+
+    
+
+    <style>
+      .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+      }
+
+      @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+              font-size: 3.5rem;
+          }
+      }
+  </style> 
+
+  <script>     
+    function CambiarColor(a)
+        {
+            a.style.background= "red"
+            
+        };              
+    function VolverColor(a)
+        {
+            a.style.background=""
+        }   
+        
+    function CambiarMayusculas()
+        {
+            var a = document.getElementById('nom');
+            a.value = a.value.toUpperCase();
+        }
+
+</script>
+
+
+<div></div>
+
+
+  
+
+
+    
+
+   
+    
+
+    
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="img/FOTO1.jpg" width="60px" height="60px" alt="">Animalitos al rescate!
+          </a>
+          <div class="collapse navbar-collapse" id="opciones">   
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class=" nav-link letra2" href="TallerIndex.html" target="_BLANK">Quienes somos!</a>
+              </li>
+              <li class="nav-item">
+                <a class=" nav-link letra2" href="galeria.html" target="_BLANK">Galería de productos!</a>
+              </li>
+              <li class="nav-item">
+                <a class=" nav-link letra2" href="ong.html" target="_BLANK">Nuestra misión!</a>
+              </li>
+              <li class="nav-item">
+                <a class=" nav-link letra2" href="formulario1.html" target="_BLANK">Registro de usuario!</a>
+              </li>
+              <li class="nav-item">
+                <a class=" nav-link letra2" href="API.html" target="_BLANK">Apoya a la ong!</a>
+              </li>
+                         
+            </ul>
+          </div>
+        </nav>
+        <hr>
+        <div class="contenedor">
+            <div class="widget">
+              <div class="fecha">
+                <p id="diaSemana" class="diaSemana"></p>
+                <p id="dia" class="dia"></p>
+                <p>de</p>
+                <p id="mes" class="mes"></p>
+                <p>del</p>
+                <p id="anio" class="anio"></p>
+              </div>
+              <div class="reloj">
+                <p id="horas" class="horas"></p>
+                <p>:</p>
+                <p id="minutos" class="minutos"></p>
+                <p>:</p>
+                <div class="cajaSegundos">
+                  <p id="ampm" class="ampm"></p>
+                  <p id="segundos" class="segundos"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          
+          
+          
+          
+          
+          
+
+        
+        <hr>
+        <div class="row jumbotron" id="qSomos">
+            <div class="col-lg-6">
+                <div>
+                    <h1>Animalitos al rescate!</h1><br>
+                    <h2 class="lead"><strong></strong></h2>
+                    <p>
+                      Es una organización sin fines de lucro, compuesta por un equipo multidisciplinario de profesionales, tales como:
+                       medicos veterinarios y abogados, todos versados en el manejo y cuidado animal. <br><br>
+
+                         
+
+                         <strong> ¡Bienvenid@s a
+                            Animalitos al rescate!</strong> 
+                            <div class="info-vid">
+                              <div class="texto-vid">
+                                  <h5>MIRA ESTE VIDEO PARA CONOCER MÁS >>></h4>
+                              </div>
+                              <div class="ratio ratio-16x9">
+                                  <iframe src="https://www.youtube.com/embed/sRyaQgwPR4k" title="YouTube video player" 
+                                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                  allowfullscreen></iframe>
+                              </div>
+                          </div>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="col-lg-6">
+                <img src="img/FOTO80.jpg" alt="Quiénes Somos" class="img-fluid">
+            </div>
+        </div>
+        <hr>
+
+        <div class="container-fluid">
+    
+            <div id="carousel1" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel1" data-slide-to="1"></li>
+                <li data-target="#carousel1" data-slide-to="2"></li>
+              </ol>
+            
+              <div class="carousel-inner ">
+                
+                <div class="carousel-item active">
+                  <a href="#"><img class="d-block w-100" src="img/FOTO53.png" alt=""> </a>
+                    <div class="carousel-caption">
+                      <h3 class="letra">Variedad de productos para tus mascotas!</h3>
+                      <p class="letra">Bonitos productos para el regalon del hogar.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/FOTO150.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h3 class="letra">Aprende sobre la tenencia responsable!</h3>
+                      <p class="letra">Es importante tener este principio siempre en mente.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/FOTO90.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h3 class="letra">Equipo comprometido con la causa!</h3>
+                      <p class="letra">Toda la ganancia de los productos sera donada a una ong.</p>
+                    </div>
+                </div>
+              </div>
+                  
+              <a class="carousel-control-prev" href="#carousel1" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel1" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </div>
+        <hr><br>
+        <div class="row jumbotron" id="qSomos">
+            <div class="col-lg-5">
+                <img src="img/PERRO CHISTOSO1.jpg" alt="Quiénes Somos" class="img-fluid">
+            </div>
+            <div class="col-lg-1"></div>
+            <form action="index.html" method="post" name="datos" class="col-lg-6 newsletter"
+                onsubmit="return validacion()" id="newsletter">
+                <div class=" mb-4">
+                    <h2 onmouseover="style.color = 'green'" onmouseout="style.color= 'black'" id="tit-pag" class="h2 mb-2 font-weight-normal"><strong>Animalitos al rescate!</strong></h2>
+                    <p>Contactanos para recibir toda la información que necesite!.</p>
+                    <div class="form-label-group">
+                        <input type="text" name="nombre" id="nom" placeholder="Nombre" class="form-control" onfocus="CambiarColor(this)" onblur="VolverColor(this)" onchange="CambiarMayusculas()" >
+                        <label for="nom"></label>
+                    </div>
+
+                    <div class="form-label-group">
+                        <input type="text" name="email" id="ema" placeholder="Email" class="form-control" onfocus="CambiarColor(this)" onblur="VolverColor(this)">
+                        <label for="ema"></label>
+                    </div>
+
+                    <div class="">
+                        <input id="btnNewsletter" class="btn btn-lg btn-primary btn-block" type="submit"
+                            value="¡Quiero suscribirme!">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+    </main><br>
+
+    
+      
+     
+
+
+        <footer>
+          <div class="row col-12">
+              <div class="col-lg-2">
+                  <img src="img/FOTO1.jpg" alt="60px" width="60px">
+              </div>
+              <div class="col-lg-1">
+                  <a href="TallerIndex.html" id="linkFooter"><strong>Inicio</strong></a>
+              </div>
+              <div class="col-lg-1">
+                  <strong>Galería</strong>
+              </div>
+              <div class="col-lg-1">
+                  <strong>Foro</strong>
+              </div>
+            
+  
+              <div class="col-lg-2">
+                  <strong>Síguenos!</strong>
+                  <br><br>
+                  <div class="row">
+                      <img src="img/2000px-Facebook_font_awesome.svg.png" alt="" width="30px" height="30px"
+                          style=" margin-left: 15px;">
+                      <img src="img/twitter.png" alt="" width="30px" height="30px" style=" margin-left: 10px;">
+                      <img src="img/Instagram.png" alt="" width="30px" height="30px" style=" margin-left: 10px;">
+  
+                  </div>
+              </div>
+  
+  
+              <div class="col-lg-3">
+  
+                  <strong>Contacto</strong>
+                  <br><br>
+                  <div class="row">
+                      <img src="img/location.png" alt="" width="20px" height="20px"
+                          style="margin-right: 10px; margin-left: 15px;">
+                      <p>Gil de castro 03527, Lo espejo</p>
+                  </div>
+                  <div class="row">
+                      <img src="img/fono.png" alt="" width="20px" height="20px"
+                          style="margin-right: 10px; margin-left: 15px;">
+                      <p>22556789</p>
+                  </div>
+                  <div class="row">
+                      <img src="img/email.png" alt="" width="20px" height="20px"
+                          style="margin-right: 10px; margin-left: 15px;">
+                      <p>AyudaAunPulgoso@gmail.com</p>
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+  
+                  <p>&copy; Ayuda a un Pulgoso- 2022</p>
+              </div>
+          </div>
+          <script type="text/javascript">
+            let ubicacionInicial = window.pageYOffset;
+            window.onscroll = function () {
+                let ubicacionPosterior = window.pageYOffset;
+                if (ubicacionInicial >= ubicacionPosterior) {
+                    document.getElementById("barraNav").style.top = "0";
+                }
+                else {
+                    document.getElementById("barraNav").style.top = "-70px";
+                }
+                ubicacionInicial = ubicacionPosterior
+            }
+        </script>
+
+      </footer>
+
+      
+
+        
+    
+        
+        
+     
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+<script src="js/validacion.js"></script> 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>     
+</html>
